@@ -17,13 +17,13 @@ DispatchQueue.main.fw_after(2.0) {
 
 import UIKit
 
-public enum GAFloatPositionType: Int {
+enum GAFloatPositionType: Int {
     case right = 1, left = 2, none = 33
 }
 
-public var floatWindow: GAFloatWindow?
+var floatWindow: GAFloatWindow?
 
-open class GAFloatWindow: UIWindow {
+class GAFloatWindow: UIWindow {
     
     static let bW: CGFloat = 50.0
     static let bH: CGFloat = 40.0
@@ -87,7 +87,7 @@ open class GAFloatWindow: UIWindow {
     var touchBtnY: CGFloat!
     var touchPoint: CGPoint!
     
-    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
         guard let touch = touches.first else {
@@ -99,7 +99,7 @@ open class GAFloatWindow: UIWindow {
         touchBtnY = self.frame.origin.y
     }
     
-    override open func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesMoved(touches, with: event)
         
         guard let touch = touches.first else {
@@ -143,7 +143,7 @@ open class GAFloatWindow: UIWindow {
         
     }
     
-    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         
         guard let touch = touches.first else {

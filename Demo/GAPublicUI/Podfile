@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+inhibit_all_warnings! # 消除警告
+
+source 'https://github.com/CocoaPods/Specs.git' # 解决错误：[!] CDN: trunk Repo update failed - 20 error(s):
+
+target 'GAPublicUI' do
+  
+  use_frameworks!
+      pod 'GAPublicUI'
+end
+
