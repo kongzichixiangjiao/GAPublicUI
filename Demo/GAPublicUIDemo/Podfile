@@ -8,6 +8,6 @@ source 'https://github.com/CocoaPods/Specs.git' # 解决错误：[!] CDN: trunk 
 target 'GAPublicUIDemo' do
   
   use_frameworks!
-      pod 'GAPublicUI'
+#      pod 'GAPublicUI'
 end
 
