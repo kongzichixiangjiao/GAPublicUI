@@ -24,14 +24,15 @@ public enum GAFloatPositionType: Int {
 public var floatWindow: GAFloatWindow?
 
 open class GAFloatWindow: UIWindow {
-    
-    static let bW: CGFloat = 50.0
-    static let bH: CGFloat = 40.0
-    static let bY: CGFloat = 240.0
+
+    static var bY: CGFloat = 240.0
     static var imgName: String = ""
     static var iconColor: UIColor = UIColor.white
+
+    private var bW: CGFloat = 0
+    private var bH: CGFloat = 0
     
-    typealias GAFLoatHandler = () -> ()
+    public typealias GAFLoatHandler = () -> ()
     var handler: GAFLoatHandler!
     
     var postionType: GAFloatPositionType = .right
@@ -51,12 +52,14 @@ open class GAFloatWindow: UIWindow {
         
         self.postionType = type
         self.handler = handler
+        self.bW = frame.size.width
+        self.bH = frame.size.height
         
         self.addSubview(imgView)
     }
     
     // MARK: show
-    static func initFloatWindow(imgName: String = "float_icon_add_plan", iconColor: UIColor = UIColor.fw_randomColor(), windowLevel: CGFloat = 1000001.0, handler: @escaping GAFLoatHandler) {
+    public static func initFloatWindow(imgName: String = "float_icon_add_plan", iconColor: UIColor = UIColor.fw_randomColor(), w: CGFloat = 50.0, h: CGFloat = 50.0, windowLevel: CGFloat = 1000001.0, handler: @escaping GAFLoatHandler) {
         guard let currentWindow = UIApplication.shared.keyWindow else {
             return
         }
@@ -65,7 +68,7 @@ open class GAFloatWindow: UIWindow {
         }
         GAFloatWindow.imgName = imgName
         GAFloatWindow.iconColor = iconColor
-        let frame = CGRect(x: UIScreen.main.bounds.width - bW, y: bY, width: bW, height: bH)
+        let frame = CGRect(x: UIScreen.main.bounds.width - w, y: bY, width: w, height: h)
         floatWindow = GAFloatWindow(frame: frame, type: .right, handler: handler)
         floatWindow?.makeKeyAndVisible()
         floatWindow?.windowLevel = .init(windowLevel)
@@ -74,12 +77,12 @@ open class GAFloatWindow: UIWindow {
         currentWindow.makeKey()
     }
     
-    static func show(handler: @escaping GAFLoatHandler) {
+    public static func show(handler: @escaping GAFLoatHandler) {
         floatWindow?.handler = handler
         floatWindow?.isHidden = false
     }
     
-    static func hide() {
+    public static func hide() {
         floatWindow?.isHidden = true
     }
     
@@ -188,15 +191,15 @@ open class GAFloatWindow: UIWindow {
     
     private func _right(y: CGFloat) {
         UIView.animate(withDuration: 0.3) {
-            let bX = UIScreen.main.bounds.width - GAFloatWindow.bW
-            self.frame = CGRect(x: bX, y: y, width: GAFloatWindow.bW, height: GAFloatWindow.bH)
+            let bX = UIScreen.main.bounds.width - self.bW
+            self.frame = CGRect(x: bX, y: y, width: self.bW, height: self.bH)
         }
     }
     
     private func _left(y: CGFloat) {
         UIView.animate(withDuration: 0.3) {
             let bX: CGFloat = 0.0
-            self.frame = CGRect(x: bX, y: y, width: GAFloatWindow.bW, height: GAFloatWindow.bH)
+            self.frame = CGRect(x: bX, y: y, width: self.bW, height: self.bH)
         }
     }
     

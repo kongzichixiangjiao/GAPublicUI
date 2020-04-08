@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D3FA42BFB91969171DD83A59 /* Pods_GAPublicUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28347A998E358D4AF775BC00 /* Pods_GAPublicUIDemo.framework */; };
 		DCC20189243D7CA8004435B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC20188243D7CA8004435B8 /* AppDelegate.swift */; };
-		DCC2018B243D7CA8004435B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2018A243D7CA8004435B8 /* SceneDelegate.swift */; };
 		DCC2018D243D7CA8004435B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2018C243D7CA8004435B8 /* ViewController.swift */; };
 		DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC2018E243D7CA8004435B8 /* Main.storyboard */; };
 		DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC20191243D7CA9004435B8 /* Assets.xcassets */; };
 		DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC20193243D7CA9004435B8 /* LaunchScreen.storyboard */; };
+		DCC2019D243D819C004435B8 /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC2019C243D819C004435B8 /* float_icon_add_plan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		C1D67B7AC1FFBE740D2931FB /* Pods-GAPublicUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAPublicUIDemo.release.xcconfig"; path = "Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DCC20185243D7CA8004435B8 /* GAPublicUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAPublicUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC20188243D7CA8004435B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCC2018A243D7CA8004435B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCC2018C243D7CA8004435B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCC2018F243D7CA8004435B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCC20191243D7CA9004435B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC20194243D7CA9004435B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC20196243D7CA9004435B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC2019C243D819C004435B8 /* float_icon_add_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = float_icon_add_plan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,6 @@
 				7FAB9E42D60FCECDFFEA0813 /* Pods-GAPublicUIDemo.debug.xcconfig */,
 				C1D67B7AC1FFBE740D2931FB /* Pods-GAPublicUIDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,8 +80,8 @@
 		DCC20187243D7CA8004435B8 /* GAPublicUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCC2019C243D819C004435B8 /* float_icon_add_plan.png */,
 				DCC20188243D7CA8004435B8 /* AppDelegate.swift */,
-				DCC2018A243D7CA8004435B8 /* SceneDelegate.swift */,
 				DCC2018C243D7CA8004435B8 /* ViewController.swift */,
 				DCC2018E243D7CA8004435B8 /* Main.storyboard */,
 				DCC20191243D7CA9004435B8 /* Assets.xcassets */,
@@ -103,7 +102,7 @@
 				DCC20181243D7CA8004435B8 /* Sources */,
 				DCC20182243D7CA8004435B8 /* Frameworks */,
 				DCC20183243D7CA8004435B8 /* Resources */,
-				7ADCA4B8CC0B44176B78598C /* [CP] Embed Pods Frameworks */,
+				8312CF177814E07D8A4F7D57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +153,7 @@
 			files = (
 				DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */,
 				DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */,
+				DCC2019D243D819C004435B8 /* float_icon_add_plan.png in Resources */,
 				DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +161,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7ADCA4B8CC0B44176B78598C /* [CP] Embed Pods Frameworks */ = {
+		8312CF177814E07D8A4F7D57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,7 +209,6 @@
 			files = (
 				DCC2018D243D7CA8004435B8 /* ViewController.swift in Sources */,
 				DCC20189243D7CA8004435B8 /* AppDelegate.swift in Sources */,
-				DCC2018B243D7CA8004435B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

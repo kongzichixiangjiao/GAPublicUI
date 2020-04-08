@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import GAPublicUI
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.main.fw_after(0.5) {
+            GAFloatWindow.initFloatWindow {
+                
+            }
+            
+            GAFloatWindow.show {
+                
+            }
+        }
+        
     }
-
-
+    
+    
 }
 
