@@ -1,0 +1,16 @@
+PODS:
+  - GAPublicUI (0.0.3)
+
+DEPENDENCIES:
+  - GAPublicUI
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GAPublicUI
+
+SPEC CHECKSUMS:
+  GAPublicUI: 1a3fc9e19ed60110b42c25c5832b552bf5c8c7d8
+
+PODFILE CHECKSUM: c73862f1c2c7dc65386852383b5ea9dbc6a9578c
+
+COCOAPODS: 1.9.1
