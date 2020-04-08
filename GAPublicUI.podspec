@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kongzichixiangjiao/GAPublicUI.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   s.source_files = "Classes/**/*.{swift}" #可用
   s.resource_bundles = {
-    'GAPublicUI' => ['Classes/**/*.{xib,png}']
+    'GAPublicUI_XIB' => ['Classes/**/*.{xib}'],
+    'GAPublicUI_IMG' => ['Classes/**/*.{png}']
   }
   s.requires_arc = true # 是否启用ARCS
   s.platform     = :ios, "9.0" #平台及支持的最低版本
