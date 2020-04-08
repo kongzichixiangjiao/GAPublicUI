@@ -3,23 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABF801657229CBFB673DC833 /* Pods_GAPublicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C6DAF7D9B3378782A6FD73 /* Pods_GAPublicUI.framework */; };
+		C00489164FFA414A6D0265AD /* Pods_GAPublicUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324E9D22799F43742E6FE4E6 /* Pods_GAPublicUI.framework */; };
 		DC171DEB243D66A1004920A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171DEA243D66A1004920A6 /* AppDelegate.swift */; };
 		DC171DED243D66A1004920A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171DEC243D66A1004920A6 /* SceneDelegate.swift */; };
 		DC171DEF243D66A1004920A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC171DEE243D66A1004920A6 /* ViewController.swift */; };
 		DC171DF2243D66A1004920A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC171DF0243D66A1004920A6 /* Main.storyboard */; };
 		DC171DF4243D66A3004920A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC171DF3243D66A3004920A6 /* Assets.xcassets */; };
 		DC171DF7243D66A3004920A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC171DF5243D66A3004920A6 /* LaunchScreen.storyboard */; };
+		DCC2017B243D79F0004435B8 /* AAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC2017A243D79F0004435B8 /* AAViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC20178243D78AE004435B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		15D1CC0C1BD157CC5D6B62DA /* Pods-GAPublicUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAPublicUI.release.xcconfig"; path = "Target Support Files/Pods-GAPublicUI/Pods-GAPublicUI.release.xcconfig"; sourceTree = "<group>"; };
-		D0339B05615060138229EB86 /* Pods-GAPublicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAPublicUI.debug.xcconfig"; path = "Target Support Files/Pods-GAPublicUI/Pods-GAPublicUI.debug.xcconfig"; sourceTree = "<group>"; };
-		D2C6DAF7D9B3378782A6FD73 /* Pods_GAPublicUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAPublicUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324E9D22799F43742E6FE4E6 /* Pods_GAPublicUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAPublicUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6297146DC3A55FB03057F6 /* Pods-GAPublicUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAPublicUI.release.xcconfig"; path = "Target Support Files/Pods-GAPublicUI/Pods-GAPublicUI.release.xcconfig"; sourceTree = "<group>"; };
+		D8AC1B72C3F4DC5E5F9AED24 /* Pods-GAPublicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAPublicUI.debug.xcconfig"; path = "Target Support Files/Pods-GAPublicUI/Pods-GAPublicUI.debug.xcconfig"; sourceTree = "<group>"; };
 		DC171DE7243D66A1004920A6 /* GAPublicUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAPublicUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC171DEA243D66A1004920A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC171DEC243D66A1004920A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +42,7 @@
 		DC171DF3243D66A3004920A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC171DF6243D66A3004920A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC171DF8243D66A3004920A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC2017A243D79F0004435B8 /* AAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF801657229CBFB673DC833 /* Pods_GAPublicUI.framework in Frameworks */,
+				C00489164FFA414A6D0265AD /* Pods_GAPublicUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,18 +60,17 @@
 		5CD733975734CC9E279196A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D2C6DAF7D9B3378782A6FD73 /* Pods_GAPublicUI.framework */,
+				324E9D22799F43742E6FE4E6 /* Pods_GAPublicUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CC9E49CC936D29025602433C /* Pods */ = {
+		9904C4E60571AEECCCB582B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D0339B05615060138229EB86 /* Pods-GAPublicUI.debug.xcconfig */,
-				15D1CC0C1BD157CC5D6B62DA /* Pods-GAPublicUI.release.xcconfig */,
+				D8AC1B72C3F4DC5E5F9AED24 /* Pods-GAPublicUI.debug.xcconfig */,
+				BE6297146DC3A55FB03057F6 /* Pods-GAPublicUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -65,8 +79,8 @@
 			children = (
 				DC171DE9243D66A1004920A6 /* GAPublicUI */,
 				DC171DE8243D66A1004920A6 /* Products */,
-				CC9E49CC936D29025602433C /* Pods */,
 				5CD733975734CC9E279196A4 /* Frameworks */,
+				9904C4E60571AEECCCB582B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +98,7 @@
 				DC171DEA243D66A1004920A6 /* AppDelegate.swift */,
 				DC171DEC243D66A1004920A6 /* SceneDelegate.swift */,
 				DC171DEE243D66A1004920A6 /* ViewController.swift */,
+				DCC2017A243D79F0004435B8 /* AAViewController.swift */,
 				DC171DF0243D66A1004920A6 /* Main.storyboard */,
 				DC171DF3243D66A3004920A6 /* Assets.xcassets */,
 				DC171DF5243D66A3004920A6 /* LaunchScreen.storyboard */,
@@ -103,7 +118,8 @@
 				DC171DE3243D66A1004920A6 /* Sources */,
 				DC171DE4243D66A1004920A6 /* Frameworks */,
 				DC171DE5243D66A1004920A6 /* Resources */,
-				8AA97FB44C8AF3CCABB466B8 /* [CP] Embed Pods Frameworks */,
+				6573DCE2D248732475D0FA44 /* [CP] Embed Pods Frameworks */,
+				DCC20178243D78AE004435B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,7 +199,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8AA97FB44C8AF3CCABB466B8 /* [CP] Embed Pods Frameworks */ = {
+		6573DCE2D248732475D0FA44 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +225,7 @@
 			files = (
 				DC171DEF243D66A1004920A6 /* ViewController.swift in Sources */,
 				DC171DEB243D66A1004920A6 /* AppDelegate.swift in Sources */,
+				DCC2017B243D79F0004435B8 /* AAViewController.swift in Sources */,
 				DC171DED243D66A1004920A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +368,7 @@
 		};
 		DC171DFC243D66A3004920A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0339B05615060138229EB86 /* Pods-GAPublicUI.debug.xcconfig */;
+			baseConfigurationReference = D8AC1B72C3F4DC5E5F9AED24 /* Pods-GAPublicUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,7 +387,7 @@
 		};
 		DC171DFD243D66A3004920A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15D1CC0C1BD157CC5D6B62DA /* Pods-GAPublicUI.release.xcconfig */;
+			baseConfigurationReference = BE6297146DC3A55FB03057F6 /* Pods-GAPublicUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

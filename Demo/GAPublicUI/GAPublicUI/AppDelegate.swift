@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GAFloatWindow
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,12 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        DispatchQueue.main.fw_after(2.0) {
-            GAFloatWindow.show {
-                let vc = GAFloatWindowViewController(nibName: "GAFloatWindowViewController", bundle: nil)
-                self.window?.rootViewController?.present(vc, animated: true, completion: nil)
-            }
-        }
+    
+        
+//        DispatchQueue.main.fw_after(2.0) {
+//            GAFloatWindow.show {
+//                let vc = GAFloatWindowViewController(nibName: "GAFloatWindowViewController", bundle: nil)
+//                self.window?.rootViewController?.present(vc, animated: true, completion: nil)
+//            }
+//        }
         
         return true
     }

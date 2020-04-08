@@ -1,5 +1,5 @@
 PODS:
-  - GAPublicUI (0.0.1)
+  - GAPublicUI (0.0.2)
 
 DEPENDENCIES:
   - GAPublicUI
@@ -9,7 +9,7 @@ SPEC REPOS:
     - GAPublicUI
 
 SPEC CHECKSUMS:
-  GAPublicUI: 7e3b5d46eb25df74e25787b5a3d1eb0538c80d05
+  GAPublicUI: e596e4ec980ab98f73ab1c24ff1a7aca5e2deab0
 
 PODFILE CHECKSUM: 762ed3b66a7eb7835db10380637af1f5f793e7bd
 
