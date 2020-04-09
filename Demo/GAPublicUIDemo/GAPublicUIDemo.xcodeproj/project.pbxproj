@@ -14,6 +14,14 @@
 		DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC20191243D7CA9004435B8 /* Assets.xcassets */; };
 		DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC20193243D7CA9004435B8 /* LaunchScreen.storyboard */; };
 		DCC2019D243D819C004435B8 /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC2019C243D819C004435B8 /* float_icon_add_plan.png */; };
+		DCD2ECF8243EB2A70088436A /* View+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2ECEE243EB2A70088436A /* View+Toast.swift */; };
+		DCD2ECF9243EB2A70088436A /* toast_icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ECF0243EB2A70088436A /* toast_icon_error@2x.png */; };
+		DCD2ECFA243EB2A70088436A /* toast_icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ECF1243EB2A70088436A /* toast_icon_right@2x.png */; };
+		DCD2ECFB243EB2A70088436A /* toast_icon_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ECF2243EB2A70088436A /* toast_icon_failure@2x.png */; };
+		DCD2ECFC243EB2A70088436A /* GAToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2ECF3243EB2A70088436A /* GAToast.swift */; };
+		DCD2ECFD243EB2A70088436A /* GAShowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2ECF5243EB2A70088436A /* GAShowWindow.swift */; };
+		DCD2ECFE243EB2A70088436A /* GAShowWindowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2ECF6243EB2A70088436A /* GAShowWindowProtocol.swift */; };
+		DCD2ECFF243EB2A70088436A /* GAToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ECF7243EB2A70088436A /* GAToast.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		DCC20194243D7CA9004435B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC20196243D7CA9004435B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC2019C243D819C004435B8 /* float_icon_add_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = float_icon_add_plan.png; sourceTree = "<group>"; };
+		DCD2ECEE243EB2A70088436A /* View+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Toast.swift"; sourceTree = "<group>"; };
+		DCD2ECF0243EB2A70088436A /* toast_icon_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_error@2x.png"; sourceTree = "<group>"; };
+		DCD2ECF1243EB2A70088436A /* toast_icon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_right@2x.png"; sourceTree = "<group>"; };
+		DCD2ECF2243EB2A70088436A /* toast_icon_failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_failure@2x.png"; sourceTree = "<group>"; };
+		DCD2ECF3243EB2A70088436A /* GAToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAToast.swift; sourceTree = "<group>"; };
+		DCD2ECF5243EB2A70088436A /* GAShowWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAShowWindow.swift; sourceTree = "<group>"; };
+		DCD2ECF6243EB2A70088436A /* GAShowWindowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAShowWindowProtocol.swift; sourceTree = "<group>"; };
+		DCD2ECF7243EB2A70088436A /* GAToast.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAToast.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,7 @@
 		DCC20187243D7CA8004435B8 /* GAPublicUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCD2ECEC243EB2A70088436A /* GAToast（吐司） */,
 				DCC2019C243D819C004435B8 /* float_icon_add_plan.png */,
 				DCC20188243D7CA8004435B8 /* AppDelegate.swift */,
 				DCC2018C243D7CA8004435B8 /* ViewController.swift */,
@@ -89,6 +106,46 @@
 				DCC20196243D7CA9004435B8 /* Info.plist */,
 			);
 			path = GAPublicUIDemo;
+			sourceTree = "<group>";
+		};
+		DCD2ECEC243EB2A70088436A /* GAToast（吐司） */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2ECED243EB2A70088436A /* toast1 */,
+				DCD2ECEF243EB2A70088436A /* source */,
+				DCD2ECF3243EB2A70088436A /* GAToast.swift */,
+				DCD2ECF4243EB2A70088436A /* toast2 */,
+				DCD2ECF7243EB2A70088436A /* GAToast.xib */,
+			);
+			name = "GAToast（吐司）";
+			path = "../../../Classes/GAToast（吐司）";
+			sourceTree = "<group>";
+		};
+		DCD2ECED243EB2A70088436A /* toast1 */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2ECEE243EB2A70088436A /* View+Toast.swift */,
+			);
+			path = toast1;
+			sourceTree = "<group>";
+		};
+		DCD2ECEF243EB2A70088436A /* source */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2ECF0243EB2A70088436A /* toast_icon_error@2x.png */,
+				DCD2ECF1243EB2A70088436A /* toast_icon_right@2x.png */,
+				DCD2ECF2243EB2A70088436A /* toast_icon_failure@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		DCD2ECF4243EB2A70088436A /* toast2 */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2ECF5243EB2A70088436A /* GAShowWindow.swift */,
+				DCD2ECF6243EB2A70088436A /* GAShowWindowProtocol.swift */,
+			);
+			path = toast2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +209,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */,
+				DCD2ECFB243EB2A70088436A /* toast_icon_failure@2x.png in Resources */,
+				DCD2ECF9243EB2A70088436A /* toast_icon_error@2x.png in Resources */,
 				DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */,
 				DCC2019D243D819C004435B8 /* float_icon_add_plan.png in Resources */,
+				DCD2ECFA243EB2A70088436A /* toast_icon_right@2x.png in Resources */,
 				DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */,
+				DCD2ECFF243EB2A70088436A /* GAToast.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD2ECFD243EB2A70088436A /* GAShowWindow.swift in Sources */,
+				DCD2ECF8243EB2A70088436A /* View+Toast.swift in Sources */,
+				DCD2ECFE243EB2A70088436A /* GAShowWindowProtocol.swift in Sources */,
 				DCC2018D243D7CA8004435B8 /* ViewController.swift in Sources */,
 				DCC20189243D7CA8004435B8 /* AppDelegate.swift in Sources */,
+				DCD2ECFC243EB2A70088436A /* GAToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
