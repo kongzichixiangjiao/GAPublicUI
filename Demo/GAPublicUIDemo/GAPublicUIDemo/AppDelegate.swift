@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import GAPublicUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
