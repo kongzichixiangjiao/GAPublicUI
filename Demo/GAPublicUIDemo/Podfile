@@ -8,6 +8,5 @@ source 'https://github.com/CocoaPods/Specs.git' # 解决错误：[!] CDN: trunk 
 target 'GAPublicUIDemo' do
   
       pod 'GAPublicUI'
-      pod 'GAExtension'
 end
 

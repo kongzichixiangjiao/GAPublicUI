@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="loading" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="loading" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="195" height="182"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -42,9 +42,13 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="iconImageView" destination="zGZ-AC-EAI" id="zrH-U1-dpC"/>
+                <outlet property="messageLabel" destination="b2S-fX-3wv" id="wrw-vb-3cP"/>
+            </connections>
             <point key="canvasLocation" x="-293.47826086956525" y="-34.821428571428569"/>
         </view>
-        <view contentMode="scaleToFill" id="jVf-ME-cCO" userLabel="submit_success" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="jVf-ME-cCO" userLabel="submit_success" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="199" height="182"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -93,7 +97,7 @@
             <viewLayoutGuide key="safeArea" id="BlG-xY-aR8"/>
             <point key="canvasLocation" x="116.66666666666667" y="-34.821428571428569"/>
         </view>
-        <view contentMode="scaleToFill" id="ctP-kL-y37" userLabel="submit_error" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="ctP-kL-y37" userLabel="submit_error" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="199" height="182"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -143,7 +147,7 @@
             <viewLayoutGuide key="safeArea" id="BgT-a3-Iqa"/>
             <point key="canvasLocation" x="521.01449275362324" y="-35.491071428571423"/>
         </view>
-        <view contentMode="scaleToFill" id="sll-XB-iRr" userLabel="operate_success" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="sll-XB-iRr" userLabel="operate_success" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="199" height="182"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -193,7 +197,7 @@
             <viewLayoutGuide key="safeArea" id="MCA-nH-GvF"/>
             <point key="canvasLocation" x="926.81159420289862" y="-35.491071428571423"/>
         </view>
-        <view contentMode="scaleToFill" id="DNq-RD-Vih" userLabel="operate_error" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="DNq-RD-Vih" userLabel="operate_error" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="199" height="182"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
@@ -242,7 +246,7 @@
             <viewLayoutGuide key="safeArea" id="dh2-Cf-32j"/>
             <point key="canvasLocation" x="1323.913043478261" y="-35.491071428571423"/>
         </view>
-        <view contentMode="scaleToFill" id="CAp-RD-GaZ" userLabel="message" customClass="GAToast" customModule="GAPublicUI_XIB" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="CAp-RD-GaZ" userLabel="message" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="459" height="266"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>

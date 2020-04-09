@@ -7,82 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F189E1C95A73C48540A052D7085BA9 /* GAPublicUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA69895AF2464161F039A0FF541B57C7 /* GAPublicUI-dummy.m */; };
-		03EFE5445904F9024EC356C6D65C26D7 /* toast_icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D529C05635AE162328CC7F35E74877 /* toast_icon_error@2x.png */; };
+		0241DA1B9CABFDC3DEFBB109A540E4BA /* toast_icon_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F6C0DCE34DEA7A0E361C64C8C54D8 /* toast_icon_failure@2x.png */; };
 		079E01B31A4AF6C1443BACC69FBED46D /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3451D3935F51C2C7DC9E8D5B26510FA5 /* CGRect+Extension.swift */; };
 		09524B044DC54CDC4199EE43D45EB4D7 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1312B7B337705A925D26243A1DC65192 /* UIApplication+Extension.swift */; };
-		09F07AD9C5E15269DCF88CBC77AF93FF /* toast_icon_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F6C0DCE34DEA7A0E361C64C8C54D8 /* toast_icon_failure@2x.png */; };
+		0D9328D6CC4752A5F72A14ABA89BC6FF /* GAFloatWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307ADC8CC0501F1D97A68C3867554AA /* GAFloatWindowViewController.swift */; };
 		10D8ED6F8F10CE5EB095E51854313774 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91092BB26E71DB435663E6FEC4DAE5B2 /* Bundle+Extension.swift */; };
 		14D5BFA79D71810081934C31329269CD /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB686C615BEC379E3952D4D32B0C1C78 /* NSMutableAttributedString+Extension.swift */; };
-		152973C484DF7A2B0B92B92D4AAF591B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		152973C484DF7A2B0B92B92D4AAF591B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF18DDA8D2CEF04AF108E2CE50E9CD /* Foundation.framework */; };
 		1866507E1F2411A3C7A74D73BBCD9DF3 /* Pods-GAPublicUIDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C43705274A8AFD9753018A4AA905B4E /* Pods-GAPublicUIDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A8FB69F329C5486AAF34E2295B5D444 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6780F97F930697383E86673304656B7 /* UITextField+Extension.swift */; };
+		1B430D140CE227AACEEF5908508DE853 /* GAPublicUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA69895AF2464161F039A0FF541B57C7 /* GAPublicUI-dummy.m */; };
 		1C0493B02E513B21F46F2BF3B4BC3456 /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6D1FF60A5B34447A4D9DF8F4B7090 /* NotificationName+Extension.swift */; };
-		1FB217BD50B1D96520EB42C9844DAB51 /* GAShowWindowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797D363B03189AF71AA7152F3E524E9 /* GAShowWindowProtocol.swift */; };
 		20FDC52FC03CBAC788E398701CB85EB4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA384C53B82F713DF4B70BC864F9F4 /* UIColor+Extension.swift */; };
-		223E8F90FD09A2F50EABE5F512E644FE /* GAShowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773A9023E5618F9F85343A74187AFFEF /* GAShowWindow.swift */; };
-		229551EC31E19F749C9EEDA4EE2A6604 /* toast_icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C4D9064EA05A62FE238B2870C22BC8 /* toast_icon_right@2x.png */; };
 		2B0546A5E7C7FBE5F8E819DEB1F66B76 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEACF813CE452EFCFAFD9C88DA71CAC /* UITableView+Extension.swift */; };
 		2BE6306304EDBD7844A9FF75496DC8D3 /* CoreMedia+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC1BCAD311B294EFA6943892172A73 /* CoreMedia+Extension.swift */; };
+		2E61942FD1637FEBE310097CD2E3EFA6 /* GAFloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B134E86FA5DDECB7610DD921B3921766 /* GAFloatWindow.swift */; };
 		32C1B1D15AD9DE1870A57C7953CEEA05 /* NSArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0011DE183926B6B36E7B9C62DBE151 /* NSArray+Extension.swift */; };
-		359E6EE95F4381714BA9A2917CC89407 /* GAFloatWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9307ADC8CC0501F1D97A68C3867554AA /* GAFloatWindowViewController.swift */; };
+		35862199C633787505984E4FF913D3D7 /* GAToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991EE4D9C2CF5712F75521DD1C24A53 /* GAToast.swift */; };
 		36EA33C18BF2535B3212184E8832EECB /* Path+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28D4DFC09DFCBCE79C04C17B39C3397 /* Path+Extension.swift */; };
-		386A57134E88CDE43D9378023EAE8C10 /* GAPublicUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776130BA84C06EC408D96D106FA45DC2 /* GAPublicUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D58F4EDDDDB7C1D87436BC85A45C7D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FFEE37825C3B3CCAD5A518A422D990 /* UIKit.framework */; };
 		40131EB3ADA4D8B180B0D687FE7B5EB4 /* Pods-GAPublicUIDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6E8BF0551560381C6EBA997DF0885F /* Pods-GAPublicUIDemo-dummy.m */; };
-		4A75CAA600B8FE77BC80470CB05B7F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		4A75CAA600B8FE77BC80470CB05B7F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FFEE37825C3B3CCAD5A518A422D990 /* UIKit.framework */; };
 		4C6F0B14CA9757535AF92043641446F7 /* UIView+Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FE513DF9DAC22012DFABCEC9873D6 /* UIView+Watermark.swift */; };
 		4F0820FE83D2FD4F277F287993E29CD9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CFD155BB94329BBA8D6C4F9BFE1AC /* UIButton+Extension.swift */; };
-		542AA2EB3D02DD8CFBECA2983E45FA8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		58263C3C8A81200AE80295D08A304187 /* NotificationCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C7C4E0FC0F89C92789E54D55E9B82 /* NotificationCenter+Extension.swift */; };
 		5F3BB62C6B776A49A41C065CD8FFE1A9 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A5044EAE00A3D307E0FA6B811076C1 /* CGFloat+Extension.swift */; };
+		63985CF1837FB269F5078A761B61665C /* toast_icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D529C05635AE162328CC7F35E74877 /* toast_icon_error@2x.png */; };
 		63A3572CEE1E97748DBD7DE0B69A73DD /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1391DCEE356A469FE92B5BF2A00B2C4 /* Dictionary+Extension.swift */; };
 		68C5F039CC28B49EB5AEDBF8FF3454AD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559769CE55641E94D2F8DD11860E917D /* String+Extension.swift */; };
-		7149D381476C5BD7785778EB3DB43196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6D0575BDBA4FF3344393D9A42C0DA6CB /* GAPublicUI_XIB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1908301E59CBC00506C25BE2BFE8178D /* GAPublicUI_XIB.bundle */; };
 		717B02DFC936307A0377526A44954AF5 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69323FFB7B81E74F0ADB593543A660 /* NSObject+Extension.swift */; };
 		717D1B8BE7CEBCD2211478840DA20FC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F0D8469DDCBFAEB4D307A858F03E9 /* Date+Extension.swift */; };
 		7192F33E8E35C0451148FC5BC7F9328B /* UIView+Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF44F3073024DAA6D8F25E0BC6D54A /* UIView+Shot.swift */; };
 		7544B42B452F420C52B462ED55012245 /* View+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697DB86EDA4B463611345D9C96DB60CB /* View+GestureRecognizer.swift */; };
-		7727B00CD6EE929FEF861DAF35910AE5 /* GAPublicUI_IMG.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09F77DAE61D57BDDBFA6A61105F8C7A8 /* GAPublicUI_IMG.bundle */; };
-		80E8D01016366527E0817B61C634EA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7BA8B52AF8800504AE074FA07C6468F0 /* View+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F2FB00A604DF2AC43D27EC3B70BE5 /* View+Toast.swift */; };
+		7D7F6FAA614F06AF7FD58FF06586B6AC /* toast_icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C4D9064EA05A62FE238B2870C22BC8 /* toast_icon_right@2x.png */; };
+		7EE137398C933EF521DC92494E3A4DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF18DDA8D2CEF04AF108E2CE50E9CD /* Foundation.framework */; };
+		80DAB91C4462A125F06D219F23DC3A31 /* GAToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116C047FC1826531F5D0FFE356EE16CB /* GAToast.xib */; };
+		80E8D01016366527E0817B61C634EA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19DF18DDA8D2CEF04AF108E2CE50E9CD /* Foundation.framework */; };
 		8283CB378EBC76FDC85B03541BA6DAB3 /* JSON+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41930512AB009495616FCF7EB3DA5892 /* JSON+Extension.swift */; };
 		873981085E1545878D1E6D506C71FB68 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EFDCBFAC7415F85EA8AF97359F0CE9 /* URL+Extension.swift */; };
 		87A9E25FE0BDE1E32212864520D96B1A /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD57FE7BFD4C7AD5EE49A5EDC1F659 /* CGPoint+Extension.swift */; };
 		8BD6A9110186DB91BD9BDC659D740F9C /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E99ECB0225A9AC7916B5A2B25888C /* ViewController+Extension.swift */; };
 		8C21E772B0D296E8421A79333C5F6E0E /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F49A5F1DF0920497239CD0E8A7CAE51 /* UITableViewCell+Extension.swift */; };
 		91CD8C73ECD371437650B65B44289BC6 /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704EDAF94A5E54C1BA5CD7906E37325 /* Notification+Extension.swift */; };
+		92D4F0F8B56C963764AEAC738958D02B /* GAExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42A820E9948875BCC117F79E3DDE9F7 /* GAExtension.framework */; };
 		938987C8F2C35848899B0BCFC54C3853 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFFD6BCEC64F27441EF3016FCC27599 /* UIDevice+Extension.swift */; };
 		9521FF21DB295BBEA6320681B2D9F7E4 /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E5B86BEE9094F9CCB958966F3A4B1 /* Timer+Extension.swift */; };
-		9DFFDD6AB452244D149C988A2780B971 /* GAFloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B134E86FA5DDECB7610DD921B3921766 /* GAFloatWindow.swift */; };
+		98E588A2B2B0BDD886A41D952A2549F7 /* GAFloatWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014A3B6E42692344F8C4209BDEB7441B /* GAFloatWindowViewController.xib */; };
 		A2396AE931EB23EB990E4C856AFA839A /* IndexPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C097B15DDED7F7617E728BB37DDC080 /* IndexPath+Extension.swift */; };
+		A49EC3BB9249D22E6CBF4214B6A64563 /* GAPublicUI_IMG.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09F77DAE61D57BDDBFA6A61105F8C7A8 /* GAPublicUI_IMG.bundle */; };
 		A6EC36379971148DFC5A59865747CAB1 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C6A2616433A4F3D7F5B7F355E25BA /* UIStoryboard+Extension.swift */; };
 		AB21390E9962A4AE66E638591A5D84D3 /* GAExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBEB95B51E7B5585A200B6FB50DB224 /* GAExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC1EF8A92C070CC475CB49EA49B7CC5D /* GAToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116C047FC1826531F5D0FFE356EE16CB /* GAToast.xib */; };
 		AD34A4E39A56E3A98B52A36C680F1484 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54209482AE13726D6567886498A38B6C /* UINavigationController+Extension.swift */; };
 		B2F4C837944166F46D35621B7F2E641F /* View+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81959DC6E92FBC154A77919306EF178C /* View+Layout.swift */; };
 		B36DE07A174C4147A37D83ED3021DBC3 /* GAExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B26E5A92890B712BA6F76E5E5B4A51C4 /* GAExtension-dummy.m */; };
 		B408CEA01706D752EC8850231BF5EA62 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1196695CBF1AC49E9CA042433D0878F4 /* UICollectionView+Extension.swift */; };
+		C09A7531CDEFBA6DFF4B07377FEEAC53 /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A626CDDA294E97EAAB982E9D6684D /* float_icon_add_plan.png */; };
 		C13C800597516D75B34C1B62A62B2E66 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E09BD1FDD8A1C5D4FE6A9B5404EC9 /* UIFont+Extension.swift */; };
-		C763239161D4DDF679148932C800358D /* View+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F2FB00A604DF2AC43D27EC3B70BE5 /* View+Toast.swift */; };
 		CDF0224D6E5EAEBF0020A5519CADE501 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A297680A7628E3FD3A6A243759DC8 /* UIImage+Extension.swift */; };
-		CFF53C291F0CF0C22858541797F9E026 /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8A626CDDA294E97EAAB982E9D6684D /* float_icon_add_plan.png */; };
+		D0B34941E6ACE9B8294AE7F0D525954D /* GAShowWindowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1797D363B03189AF71AA7152F3E524E9 /* GAShowWindowProtocol.swift */; };
 		D68E03BFAD93F6FB9502FD7CC115CC56 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432DA489E9A0210E5DB9F6CADB80B6AF /* UIImageView+Extension.swift */; };
+		DDE2DEFB07A8F8114A23906395C0075D /* GAPublicUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 776130BA84C06EC408D96D106FA45DC2 /* GAPublicUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE87B8DAD74B6BC7C8D29B3ACE75CA50 /* GAShowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773A9023E5618F9F85343A74187AFFEF /* GAShowWindow.swift */; };
 		DF0F9DAEFA08F5CD7C04A747CFED430D /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11E1F6C5AB115279B9D4EC2B427FF /* DispatchQueue+Extension.swift */; };
 		E39DE6CB45BDCE5832848A725559B64F /* UIView+Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B479A7005D152E550102FA882EC9B745 /* UIView+Icon.swift */; };
 		E57CEFFAE73DE2C6A5557974E85DFB9C /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465628FC882F46EB86FFEA5B384D7A8F /* Int+Extension.swift */; };
-		EB3D6DAA73A0A9808992084302A2E098 /* GAToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991EE4D9C2CF5712F75521DD1C24A53 /* GAToast.swift */; };
-		EECE73B19D2227345BCB0BF8C3E343A0 /* GAFloatWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014A3B6E42692344F8C4209BDEB7441B /* GAFloatWindowViewController.xib */; };
-		F9AC14AFFBFC3391D9EA801844AADB31 /* GAPublicUI_XIB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1908301E59CBC00506C25BE2BFE8178D /* GAPublicUI_XIB.bundle */; };
 		FA1BFDB6754D52C1F927BD58981BA885 /* UIScrollView+PlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70E97B829FBA21C820C82A3AB7E610 /* UIScrollView+PlaceHolder.swift */; };
 		FB92C4A7FA848FE9F16D34FD55ABC01D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB2CAC4093A9F2C4A2734363EDF2F3 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20B846842735FFF5816BCCED3EBC4452 /* PBXContainerItemProxy */ = {
+		27DD8CD8F84224A534DA5225312F7C8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55801DC220F841988C97F31F9052540D;
+			remoteInfo = "GAPublicUI-GAPublicUI_XIB";
+		};
+		5ABDBB4D81D31966156E30E68AD22CE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 290EC129C1BED00488FFDAA59C75C6E1;
 			remoteInfo = "GAPublicUI-GAPublicUI_IMG";
+		};
+		83594861DABE4CC9F6F7D6ED22E5218F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040BF434478A7A456E4CBE90B6BB23AD;
+			remoteInfo = GAExtension;
 		};
 		9F44C96258489167198813768353D88A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -90,13 +105,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 040BF434478A7A456E4CBE90B6BB23AD;
 			remoteInfo = GAExtension;
-		};
-		A02D5F9B322D0272186FD2C4D3D03CB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55801DC220F841988C97F31F9052540D;
-			remoteInfo = "GAPublicUI-GAPublicUI_XIB";
 		};
 		B3E98017E0DB7CADDDDFB47A0D2EED90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -119,12 +127,12 @@
 		131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GAPublicUI.debug.xcconfig; sourceTree = "<group>"; };
 		1797D363B03189AF71AA7152F3E524E9 /* GAShowWindowProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GAShowWindowProtocol.swift; path = Classes/GAToast/toast2/GAShowWindowProtocol.swift; sourceTree = "<group>"; };
 		1908301E59CBC00506C25BE2BFE8178D /* GAPublicUI_XIB.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GAPublicUI_XIB.bundle; path = "GAPublicUI-GAPublicUI_XIB.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DF18DDA8D2CEF04AF108E2CE50E9CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1A0F2FB00A604DF2AC43D27EC3B70BE5 /* View+Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+Toast.swift"; path = "Classes/GAToast/toast1/View+Toast.swift"; sourceTree = "<group>"; };
 		1B1809E61CD7BCA719950AF8C291F01D /* ResourceBundle-GAPublicUI_IMG-GAPublicUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GAPublicUI_IMG-GAPublicUI-Info.plist"; sourceTree = "<group>"; };
 		1F7C7C4E0FC0F89C92789E54D55E9B82 /* NotificationCenter+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NotificationCenter+Extension.swift"; path = "Classes/Foundation/NotificationCenter+Extension.swift"; sourceTree = "<group>"; };
 		207C6A2616433A4F3D7F5B7F355E25BA /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Extension.swift"; path = "Classes/Foundation/UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 		2ADBE2997BB6EED976B7EB5D451DE7FB /* Pods-GAPublicUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAPublicUIDemo.release.xcconfig"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3451D3935F51C2C7DC9E8D5B26510FA5 /* CGRect+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Extension.swift"; path = "Classes/Foundation/CGRect+Extension.swift"; sourceTree = "<group>"; };
 		3483BA16D96F453CFBA8A416E6C9C6A4 /* GAExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GAExtension.debug.xcconfig; sourceTree = "<group>"; };
 		35A0FF6D68ECD5F31480E32D0D219D35 /* GAExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GAExtension.release.xcconfig; sourceTree = "<group>"; };
@@ -132,7 +140,6 @@
 		3991EE4D9C2CF5712F75521DD1C24A53 /* GAToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GAToast.swift; path = Classes/GAToast/GAToast.swift; sourceTree = "<group>"; };
 		41930512AB009495616FCF7EB3DA5892 /* JSON+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "JSON+Extension.swift"; path = "Classes/Foundation/JSON+Extension.swift"; sourceTree = "<group>"; };
 		432DA489E9A0210E5DB9F6CADB80B6AF /* UIImageView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extension.swift"; path = "Classes/UIKit/UIImageView+Extension.swift"; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43EFDCBFAC7415F85EA8AF97359F0CE9 /* URL+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "Classes/Foundation/URL+Extension.swift"; sourceTree = "<group>"; };
 		440CFD155BB94329BBA8D6C4F9BFE1AC /* UIButton+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extension.swift"; path = "Classes/UIKit/UIButton+Extension.swift"; sourceTree = "<group>"; };
 		44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GAPublicUI.release.xcconfig; sourceTree = "<group>"; };
@@ -174,11 +181,13 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1391DCEE356A469FE92B5BF2A00B2C4 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extension.swift"; path = "Classes/Foundation/Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		A28D4DFC09DFCBCE79C04C17B39C3397 /* Path+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Path+Extension.swift"; path = "Classes/Foundation/Path+Extension.swift"; sourceTree = "<group>"; };
+		A8FFEE37825C3B3CCAD5A518A422D990 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AA69895AF2464161F039A0FF541B57C7 /* GAPublicUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GAPublicUI-dummy.m"; sourceTree = "<group>"; };
 		AB083AAD3D90E80BD93232E664B4AA3A /* Pods-GAPublicUIDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAPublicUIDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		B134E86FA5DDECB7610DD921B3921766 /* GAFloatWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GAFloatWindow.swift; path = Classes/GAFloatButton/GAFloatWindow.swift; sourceTree = "<group>"; };
 		B26E5A92890B712BA6F76E5E5B4A51C4 /* GAExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GAExtension-dummy.m"; sourceTree = "<group>"; };
 		B2D529C05635AE162328CC7F35E74877 /* toast_icon_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_icon_error@2x.png"; path = "Classes/GAToast/source/toast_icon_error@2x.png"; sourceTree = "<group>"; };
+		B42A820E9948875BCC117F79E3DDE9F7 /* GAExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B479A7005D152E550102FA882EC9B745 /* UIView+Icon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Icon.swift"; path = "Classes/UIKit/UIView+Icon.swift"; sourceTree = "<group>"; };
 		B4FF44F3073024DAA6D8F25E0BC6D54A /* UIView+Shot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Shot.swift"; path = "Classes/UIKit/UIView+Shot.swift"; sourceTree = "<group>"; };
 		BB3E3EDBBD7DFB2101E440976F73A03A /* ResourceBundle-GAPublicUI_XIB-GAPublicUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GAPublicUI_XIB-GAPublicUI-Info.plist"; sourceTree = "<group>"; };
@@ -198,23 +207,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D54243DF3BC41D64CB28456E58A6710 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		400E9DA4E8FB63CB4A00E592F290B709 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7149D381476C5BD7785778EB3DB43196 /* Foundation.framework in Frameworks */,
-				542AA2EB3D02DD8CFBECA2983E45FA8C /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		566BA9DD80D3EAAB57BFE15562BC1A06 /* Frameworks */ = {
+		5FB4E617EECBE36F9832F7B67BD70F43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,6 +231,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CDDCC3B9339C50A4AAA024ECBF9C019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE137398C933EF521DC92494E3A4DF8 /* Foundation.framework in Frameworks */,
+				92D4F0F8B56C963764AEAC738958D02B /* GAExtension.framework in Frameworks */,
+				3D58F4EDDDDB7C1D87436BC85A45C7D9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F17AC523FB48D0FFCEB28222DDC150D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -252,14 +262,6 @@
 				82C4D9064EA05A62FE238B2870C22BC8 /* toast_icon_right@2x.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		27FF0AFE51A9567AC5F2B4773E185345 /* Pods */ = {
@@ -367,20 +369,29 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DD025691A2E63E9533B96EEAE7FC9727 /* Frameworks */,
 				27FF0AFE51A9567AC5F2B4773E185345 /* Pods */,
 				FF2CFDC52831F0AAAC879ADF3385D143 /* Products */,
 				4C1333A790F3E3B6ED82111006EE58F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		DAF66BC25FCDAA643067E9FA33822B57 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				19DF18DDA8D2CEF04AF108E2CE50E9CD /* Foundation.framework */,
+				A8FFEE37825C3B3CCAD5A518A422D990 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD025691A2E63E9533B96EEAE7FC9727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42A820E9948875BCC117F79E3DDE9F7 /* GAExtension.framework */,
+				DAF66BC25FCDAA643067E9FA33822B57 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F06793416E24A7A470DFD1F9EF001AA6 /* Support Files */ = {
@@ -438,11 +449,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B7A5EA6E9E4235FFDC66EC539BE5945 /* Headers */ = {
+		73568737BC769831A48976143A52C86F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386A57134E88CDE43D9378023EAE8C10 /* GAPublicUI-umbrella.h in Headers */,
+				DDE2DEFB07A8F8114A23906395C0075D /* GAPublicUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,11 +488,11 @@
 		};
 		290EC129C1BED00488FFDAA59C75C6E1 /* GAPublicUI-GAPublicUI_IMG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DCBBCA03F4BB56415FEB1B1DD54F22C /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_IMG" */;
+			buildConfigurationList = 4BEAD40BCF979B412B30F0DB66F2DC68 /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_IMG" */;
 			buildPhases = (
-				A8E76A59B158A4DF9B7A96997FE710B1 /* Sources */,
-				3D54243DF3BC41D64CB28456E58A6710 /* Frameworks */,
-				4F90AAE405CD754B4B4AF40159132E24 /* Resources */,
+				6DBB41ACD02193E5BE63528BBC9D49B8 /* Sources */,
+				5FB4E617EECBE36F9832F7B67BD70F43 /* Frameworks */,
+				8974FEB8A69F49E5EB2B6054B1145C39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -514,11 +525,11 @@
 		};
 		55801DC220F841988C97F31F9052540D /* GAPublicUI-GAPublicUI_XIB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59A01BC2247399299057EFBCEDFC00BD /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_XIB" */;
+			buildConfigurationList = ECC273706ED85F2321E693691727A74B /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_XIB" */;
 			buildPhases = (
-				1E6B03C7ED7F77733AC8941246537B42 /* Sources */,
-				566BA9DD80D3EAAB57BFE15562BC1A06 /* Frameworks */,
-				E4CCCF535CCEDB8A873254D7C3F5093B /* Resources */,
+				B12F8AF4BB3559C15333086E55B8C67B /* Sources */,
+				7F17AC523FB48D0FFCEB28222DDC150D /* Frameworks */,
+				22B25058721961C7E0A705F9632EACBC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -531,18 +542,19 @@
 		};
 		8AD06BE1C5898656D0CB227A44E4B8AE /* GAPublicUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB52D956CB5632E5CE3BF170DB454CAF /* Build configuration list for PBXNativeTarget "GAPublicUI" */;
+			buildConfigurationList = DE68F367A18438A81D68BDE400F608F2 /* Build configuration list for PBXNativeTarget "GAPublicUI" */;
 			buildPhases = (
-				3B7A5EA6E9E4235FFDC66EC539BE5945 /* Headers */,
-				196F407C7BC9B4DD0FE8C48875A9FC61 /* Sources */,
-				400E9DA4E8FB63CB4A00E592F290B709 /* Frameworks */,
-				7773B5484F0CCDF689A2B89BD84EC80A /* Resources */,
+				73568737BC769831A48976143A52C86F /* Headers */,
+				09D02940DBA2D6D2808A474DD50B6204 /* Sources */,
+				7CDDCC3B9339C50A4AAA024ECBF9C019 /* Frameworks */,
+				FAE863B7729F08604E74838DE183A707 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F893EE85C7FBDAF852938F73D40558DA /* PBXTargetDependency */,
-				B13F0587088C7E6F4A9C4842BE1048B4 /* PBXTargetDependency */,
+				B8E044606AB38A606A091C9663CB43FB /* PBXTargetDependency */,
+				CE1C5CECABDA148B0C081B5018F7DA8F /* PBXTargetDependency */,
+				D1811E92311022B06D7DFCF55D888605 /* PBXTargetDependency */,
 			);
 			name = GAPublicUI;
 			productName = GAPublicUI;
@@ -581,14 +593,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F90AAE405CD754B4B4AF40159132E24 /* Resources */ = {
+		22B25058721961C7E0A705F9632EACBC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF53C291F0CF0C22858541797F9E026 /* float_icon_add_plan.png in Resources */,
-				03EFE5445904F9024EC356C6D65C26D7 /* toast_icon_error@2x.png in Resources */,
-				09F07AD9C5E15269DCF88CBC77AF93FF /* toast_icon_failure@2x.png in Resources */,
-				229551EC31E19F749C9EEDA4EE2A6604 /* toast_icon_right@2x.png in Resources */,
+				98E588A2B2B0BDD886A41D952A2549F7 /* GAFloatWindowViewController.xib in Resources */,
+				80DAB91C4462A125F06D219F23DC3A31 /* GAToast.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,12 +609,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7773B5484F0CCDF689A2B89BD84EC80A /* Resources */ = {
+		8974FEB8A69F49E5EB2B6054B1145C39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7727B00CD6EE929FEF861DAF35910AE5 /* GAPublicUI_IMG.bundle in Resources */,
-				F9AC14AFFBFC3391D9EA801844AADB31 /* GAPublicUI_XIB.bundle in Resources */,
+				C09A7531CDEFBA6DFF4B07377FEEAC53 /* float_icon_add_plan.png in Resources */,
+				63985CF1837FB269F5078A761B61665C /* toast_icon_error@2x.png in Resources */,
+				0241DA1B9CABFDC3DEFBB109A540E4BA /* toast_icon_failure@2x.png in Resources */,
+				7D7F6FAA614F06AF7FD58FF06586B6AC /* toast_icon_right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,33 +627,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4CCCF535CCEDB8A873254D7C3F5093B /* Resources */ = {
+		FAE863B7729F08604E74838DE183A707 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EECE73B19D2227345BCB0BF8C3E343A0 /* GAFloatWindowViewController.xib in Resources */,
-				AC1EF8A92C070CC475CB49EA49B7CC5D /* GAToast.xib in Resources */,
+				A49EC3BB9249D22E6CBF4214B6A64563 /* GAPublicUI_IMG.bundle in Resources */,
+				6D0575BDBA4FF3344393D9A42C0DA6CB /* GAPublicUI_XIB.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		196F407C7BC9B4DD0FE8C48875A9FC61 /* Sources */ = {
+		09D02940DBA2D6D2808A474DD50B6204 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFFDD6AB452244D149C988A2780B971 /* GAFloatWindow.swift in Sources */,
-				359E6EE95F4381714BA9A2917CC89407 /* GAFloatWindowViewController.swift in Sources */,
-				01F189E1C95A73C48540A052D7085BA9 /* GAPublicUI-dummy.m in Sources */,
-				223E8F90FD09A2F50EABE5F512E644FE /* GAShowWindow.swift in Sources */,
-				1FB217BD50B1D96520EB42C9844DAB51 /* GAShowWindowProtocol.swift in Sources */,
-				EB3D6DAA73A0A9808992084302A2E098 /* GAToast.swift in Sources */,
-				C763239161D4DDF679148932C800358D /* View+Toast.swift in Sources */,
+				2E61942FD1637FEBE310097CD2E3EFA6 /* GAFloatWindow.swift in Sources */,
+				0D9328D6CC4752A5F72A14ABA89BC6FF /* GAFloatWindowViewController.swift in Sources */,
+				1B430D140CE227AACEEF5908508DE853 /* GAPublicUI-dummy.m in Sources */,
+				DE87B8DAD74B6BC7C8D29B3ACE75CA50 /* GAShowWindow.swift in Sources */,
+				D0B34941E6ACE9B8294AE7F0D525954D /* GAShowWindowProtocol.swift in Sources */,
+				35862199C633787505984E4FF913D3D7 /* GAToast.swift in Sources */,
+				7BA8B52AF8800504AE074FA07C6468F0 /* View+Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E6B03C7ED7F77733AC8941246537B42 /* Sources */ = {
+		6DBB41ACD02193E5BE63528BBC9D49B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,13 +665,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				40131EB3ADA4D8B180B0D687FE7B5EB4 /* Pods-GAPublicUIDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8E76A59B158A4DF9B7A96997FE710B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +718,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B12F8AF4BB3559C15333086E55B8C67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -728,93 +740,45 @@
 			target = 040BF434478A7A456E4CBE90B6BB23AD /* GAExtension */;
 			targetProxy = 9F44C96258489167198813768353D88A /* PBXContainerItemProxy */;
 		};
-		B13F0587088C7E6F4A9C4842BE1048B4 /* PBXTargetDependency */ = {
+		B8E044606AB38A606A091C9663CB43FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "GAPublicUI-GAPublicUI_XIB";
-			target = 55801DC220F841988C97F31F9052540D /* GAPublicUI-GAPublicUI_XIB */;
-			targetProxy = A02D5F9B322D0272186FD2C4D3D03CB9 /* PBXContainerItemProxy */;
+			name = GAExtension;
+			target = 040BF434478A7A456E4CBE90B6BB23AD /* GAExtension */;
+			targetProxy = 83594861DABE4CC9F6F7D6ED22E5218F /* PBXContainerItemProxy */;
 		};
-		F893EE85C7FBDAF852938F73D40558DA /* PBXTargetDependency */ = {
+		CE1C5CECABDA148B0C081B5018F7DA8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GAPublicUI-GAPublicUI_IMG";
 			target = 290EC129C1BED00488FFDAA59C75C6E1 /* GAPublicUI-GAPublicUI_IMG */;
-			targetProxy = 20B846842735FFF5816BCCED3EBC4452 /* PBXContainerItemProxy */;
+			targetProxy = 5ABDBB4D81D31966156E30E68AD22CE0 /* PBXContainerItemProxy */;
+		};
+		D1811E92311022B06D7DFCF55D888605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GAPublicUI-GAPublicUI_XIB";
+			target = 55801DC220F841988C97F31F9052540D /* GAPublicUI-GAPublicUI_XIB */;
+			targetProxy = 27DD8CD8F84224A534DA5225312F7C8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24F922920803238B9E057B7C008E995C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GAPublicUI/GAPublicUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GAPublicUI/GAPublicUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GAPublicUI/GAPublicUI.modulemap";
-				PRODUCT_MODULE_NAME = GAPublicUI;
-				PRODUCT_NAME = GAPublicUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D603BC91BD958DABCE5AD3F2513DEA2 /* Debug */ = {
+		11F3320791AD92066882A5EEB1F05753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GAPublicUI/GAPublicUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GAPublicUI/GAPublicUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GAPublicUI";
+				IBSC_MODULE = GAPublicUI;
+				INFOPLIST_FILE = "Target Support Files/GAPublicUI/ResourceBundle-GAPublicUI_XIB-GAPublicUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GAPublicUI/GAPublicUI.modulemap";
-				PRODUCT_MODULE_NAME = GAPublicUI;
-				PRODUCT_NAME = GAPublicUI;
+				PRODUCT_NAME = GAPublicUI_XIB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		6C72503DD967FE6054F04D065F78BF93 /* Release */ = {
+		14984F495A45BFC8937DB3FD4972644E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */;
 			buildSettings = {
@@ -830,6 +794,23 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		81F42075D7984542D5C260BDC238B020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GAPublicUI";
+				IBSC_MODULE = GAPublicUI;
+				INFOPLIST_FILE = "Target Support Files/GAPublicUI/ResourceBundle-GAPublicUI_IMG-GAPublicUI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GAPublicUI_IMG;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		82D14EE7741C2AEE38F76BCD6461659F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1027,23 +1008,6 @@
 			};
 			name = Debug;
 		};
-		A694CC52283636277974B340D896FF51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GAPublicUI";
-				IBSC_MODULE = GAPublicUI;
-				INFOPLIST_FILE = "Target Support Files/GAPublicUI/ResourceBundle-GAPublicUI_IMG-GAPublicUI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = GAPublicUI_IMG;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		AF97AE4C277BA862712AA92A547FC682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2ADBE2997BB6EED976B7EB5D451DE7FB /* Pods-GAPublicUIDemo.release.xcconfig */;
@@ -1082,6 +1046,41 @@
 			};
 			name = Release;
 		};
+		B6409D179E4EC303D538B63EDFFD88CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GAPublicUI/GAPublicUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GAPublicUI/GAPublicUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GAPublicUI/GAPublicUI.modulemap";
+				PRODUCT_MODULE_NAME = GAPublicUI;
+				PRODUCT_NAME = GAPublicUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B73E95D8B9BB3BEFF698DA2239BA2E31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35A0FF6D68ECD5F31480E32D0D219D35 /* GAExtension.release.xcconfig */;
@@ -1118,26 +1117,9 @@
 			};
 			name = Release;
 		};
-		BA28B169E2F93A59B4EB7C0EBF02D3A2 /* Debug */ = {
+		C63DFD85789095C280AC54B89B0C8159 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GAPublicUI";
-				IBSC_MODULE = GAPublicUI;
-				INFOPLIST_FILE = "Target Support Files/GAPublicUI/ResourceBundle-GAPublicUI_XIB-GAPublicUI-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = GAPublicUI_XIB;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C7F4F8311089AC262D66AADC32FFB5F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131A126D53B2C865F8387436356E894A /* GAPublicUI.debug.xcconfig */;
+			baseConfigurationReference = 44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GAPublicUI";
@@ -1150,7 +1132,43 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
+		};
+		CCF2C4BFC0E72237A390191021E958BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44994A69A72531D33505F08E8521667D /* GAPublicUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GAPublicUI/GAPublicUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GAPublicUI/GAPublicUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GAPublicUI/GAPublicUI.modulemap";
+				PRODUCT_MODULE_NAME = GAPublicUI;
+				PRODUCT_NAME = GAPublicUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1164,15 +1182,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DCBBCA03F4BB56415FEB1B1DD54F22C /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_IMG" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C7F4F8311089AC262D66AADC32FFB5F9 /* Debug */,
-				A694CC52283636277974B340D896FF51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1182,11 +1191,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59A01BC2247399299057EFBCEDFC00BD /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_XIB" */ = {
+		4BEAD40BCF979B412B30F0DB66F2DC68 /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_IMG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA28B169E2F93A59B4EB7C0EBF02D3A2 /* Debug */,
-				6C72503DD967FE6054F04D065F78BF93 /* Release */,
+				81F42075D7984542D5C260BDC238B020 /* Debug */,
+				C63DFD85789095C280AC54B89B0C8159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1200,11 +1209,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB52D956CB5632E5CE3BF170DB454CAF /* Build configuration list for PBXNativeTarget "GAPublicUI" */ = {
+		DE68F367A18438A81D68BDE400F608F2 /* Build configuration list for PBXNativeTarget "GAPublicUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D603BC91BD958DABCE5AD3F2513DEA2 /* Debug */,
-				24F922920803238B9E057B7C008E995C /* Release */,
+				B6409D179E4EC303D538B63EDFFD88CA /* Debug */,
+				CCF2C4BFC0E72237A390191021E958BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC273706ED85F2321E693691727A74B /* Build configuration list for PBXNativeTarget "GAPublicUI-GAPublicUI_XIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F3320791AD92066882A5EEB1F05753 /* Debug */,
+				14984F495A45BFC8937DB3FD4972644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
