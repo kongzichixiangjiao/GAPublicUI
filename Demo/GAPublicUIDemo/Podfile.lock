@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: eb3a918a8d6d24a46eecff9f1e4ea39d5c031d06
+PODS:
+  - GAExtension (0.1.1)
+  - GAPublicUI (0.0.9)
+
+DEPENDENCIES:
+  - GAExtension
+  - GAPublicUI
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - GAExtension
+    - GAPublicUI
+
+SPEC CHECKSUMS:
+  GAExtension: d6d4deb97006b9732d55fee4d1589c5000406198
+  GAPublicUI: fc34862d329c3d3df04c2be5a31a25ff528f9598
+
+PODFILE CHECKSUM: 030e6980c1358899691099e50e4cab71a59b96bb
 
 COCOAPODS: 1.9.1
