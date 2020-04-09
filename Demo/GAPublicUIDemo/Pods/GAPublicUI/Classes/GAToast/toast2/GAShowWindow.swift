@@ -29,7 +29,7 @@ open class GAShowWindow: UIWindow {
         window.rootViewController = vc
         window.makeKeyAndVisible()
         window.windowLevel = .alert + 3
-        window.backgroundColor = UIColor.clear
+        window.backgroundColor = UIColor.clear 
         window.makeKey()
         window.tag = 2020022501
         return window
@@ -60,7 +60,7 @@ open class GAShowWindow: UIWindow {
     }
     
     // MARK: 文案提醒
-    public static func ga_show(windowFrame: CGRect = CGRect.zero, message: String, duration: TimeInterval = 1.5, touchEnable:Bool = false, isHideBefore: Bool = false) {
+    static func ga_show(windowFrame: CGRect = CGRect.zero, message: String, duration: TimeInterval = 1.5, touchEnable:Bool = false, isHideBefore: Bool = false) {
         if isHideBefore {
             ga_hideAll()
         }
@@ -68,12 +68,12 @@ open class GAShowWindow: UIWindow {
     }
     
     // MARK:
-    public static func ga_show(windowFrame: CGRect = CGRect.zero, type: GAToastType, duration: TimeInterval = 1.5, touchEnable:Bool = false) {
+    static func ga_show(windowFrame: CGRect = CGRect.zero, type: GAToastType, duration: TimeInterval = 1.5, touchEnable:Bool = false) {
         ga_init(windowFrame: windowFrame, type: type, duration: duration, touchEnable: touchEnable)
     }
     
     // MARK: 自定义View提醒
-    public static func ga_show(windowFrame: CGRect = CGRect.zero, toastV: UIView, duration: TimeInterval = 1.5, touchEnable:Bool = false) {
+    static func ga_show(windowFrame: CGRect = CGRect.zero, toastV: UIView, duration: TimeInterval = 1.5, touchEnable:Bool = false) {
         let window = ga_initWindow(frame: windowFrame)
         
         if touchEnable {
@@ -90,14 +90,14 @@ open class GAShowWindow: UIWindow {
         window.perform(#selector(show_removeFromSuperview), with: nil, afterDelay: duration)
     }
     
-    public static func ga_showLoading(windowFrame: CGRect = CGRect.zero) {
+    static func ga_showLoading(windowFrame: CGRect = CGRect.zero) {
         if !GAShowWindow.isShowLoading {
             GAShowWindow.isShowLoading = true
             ga_show(windowFrame: windowFrame, type: .loading, duration: 100000)
         }
     }
     
-    public static func ga_hideLoading() {
+    static func ga_hideLoading() {
         let window = UIApplication.shared.keyWindow as? GAShowWindow
         window?.show_removeFromSuperview()
         GAShowWindow.isShowLoading = false
@@ -113,7 +113,7 @@ open class GAShowWindow: UIWindow {
         window?.isHidden = true
     }
     
-    public static func ga_hideAll() {
+    static func ga_hideAll() {
         for window in windows {
             window.show_removeFromSuperview()
         }

@@ -9,7 +9,7 @@
 import UIKit
 import GAPublicUI
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GAShowWindowProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,10 @@ class ViewController: UIViewController {
             }
         }
         
+//        GAShowWindow.ga_show(message: "message")
+//        GAShowWindow.ga_hideAll()
+        self.view.ga_toastSubmit_error(delay: 0, touchEnable: false)
+               
     }
     
     

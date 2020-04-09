@@ -13,7 +13,7 @@ public protocol GAShowWindowProtocol {
 }
 
 extension GAShowWindowProtocol where Self: UIViewController {
-    public func b_showLoading(isAllScreen: Bool = false) {
+    internal func b_showLoading(isAllScreen: Bool = false) {
         if isAllScreen {
             GAShowWindow.ga_showLoading()
         } else {
@@ -25,7 +25,7 @@ extension GAShowWindowProtocol where Self: UIViewController {
         }
     }
     
-    public func b_hideLoading() {
+    internal func b_hideLoading() {
         GAShowWindow.ga_hideLoading()
     }
     
