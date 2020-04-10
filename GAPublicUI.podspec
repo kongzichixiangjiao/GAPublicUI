@@ -1,14 +1,15 @@
 Pod::Spec.new do |s|
   s.name         = "GAPublicUI" # 项目名称
-  s.version      = "0.0.11"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "0.0.12"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "Swift Extension" # 项目简介
   s.homepage     = "https://github.com/kongzichixiangjiao" # 你的主页
   s.source       = { :git => "https://github.com/kongzichixiangjiao/GAPublicUI.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   s.source_files = "Classes/**/*.{swift}" #可用
   s.resource_bundles = {
-    'GAPublicUI_XIB' => ['Classes/**/*.{xib}'],
-    'GAPublicUI_IMG' => ['Classes/**/*.{png}']
+    'GAPublicUI' => ['Classes/**/*.{xib, png}']
+    # 'GAPublicUI_XIB' => ['Classes/**/*.{xib}'],
+    # 'GAPublicUI_IMG' => ['Classes/**/*.{png}']
   }
   s.requires_arc = true # 是否启用ARCS
   s.platform     = :ios, "9.0" #平台及支持的最低版本

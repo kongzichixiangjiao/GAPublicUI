@@ -1,6 +1,6 @@
 PODS:
   - GAExtension (0.1.1)
-  - GAPublicUI (0.0.10):
+  - GAPublicUI (0.0.11):
     - GAExtension
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   GAExtension: d6d4deb97006b9732d55fee4d1589c5000406198
-  GAPublicUI: 1f158d350b2871336aa23b7d26b5561923a6fea9
+  GAPublicUI: 8955e099ddf24efa2a3db7149390b7c6eea939b6
 
 PODFILE CHECKSUM: aa07207da2ce47742c3cf6d2894baa057f0ffde5
 

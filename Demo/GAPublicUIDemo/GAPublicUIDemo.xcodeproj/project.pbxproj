@@ -24,6 +24,7 @@
 		DCD2ED3A243ECF5D0088436A /* GAFloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2ED2E243ECF5D0088436A /* GAFloatWindow.swift */; };
 		DCD2ED3B243ECF5D0088436A /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ED2F243ECF5D0088436A /* float_icon_add_plan.png */; };
 		DCD2ED3C243ECF5D0088436A /* GAFloatWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ED30243ECF5D0088436A /* GAFloatWindowViewController.xib */; };
+		DCD2ED3E244001380088436A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCD2ED3D244001380088436A /* Settings.bundle */; };
 		FB859983FCF14FF235233145 /* Pods_GAPublicUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84EAB1A64075EF403E64B1 /* Pods_GAPublicUIDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		DCD2ED2E243ECF5D0088436A /* GAFloatWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAFloatWindow.swift; sourceTree = "<group>"; };
 		DCD2ED2F243ECF5D0088436A /* float_icon_add_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = float_icon_add_plan.png; sourceTree = "<group>"; };
 		DCD2ED30243ECF5D0088436A /* GAFloatWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAFloatWindowViewController.xib; sourceTree = "<group>"; };
+		DCD2ED3D244001380088436A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DCC20191243D7CA9004435B8 /* Assets.xcassets */,
 				DCC20193243D7CA9004435B8 /* LaunchScreen.storyboard */,
 				DCC20196243D7CA9004435B8 /* Info.plist */,
+				DCD2ED3D244001380088436A /* Settings.bundle */,
 			);
 			path = GAPublicUIDemo;
 			sourceTree = "<group>";
@@ -184,7 +187,7 @@
 				DCC20181243D7CA8004435B8 /* Sources */,
 				DCC20182243D7CA8004435B8 /* Frameworks */,
 				DCC20183243D7CA8004435B8 /* Resources */,
-				C2766795C9296CCEB97B03F9 /* [CP] Embed Pods Frameworks */,
+				CDF4432C60A26D3BCB76F34E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +238,7 @@
 			files = (
 				DCD2ED3C243ECF5D0088436A /* GAFloatWindowViewController.xib in Resources */,
 				DCD2ED34243ECF5D0088436A /* toast_icon_failure@2x.png in Resources */,
+				DCD2ED3E244001380088436A /* Settings.bundle in Resources */,
 				DCD2ED32243ECF5D0088436A /* toast_icon_error@2x.png in Resources */,
 				DCD2ED3B243ECF5D0088436A /* float_icon_add_plan.png in Resources */,
 				DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */,
@@ -248,7 +252,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C2766795C9296CCEB97B03F9 /* [CP] Embed Pods Frameworks */ = {
+		CDF4432C60A26D3BCB76F34E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
