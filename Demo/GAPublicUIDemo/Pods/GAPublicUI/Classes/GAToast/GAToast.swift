@@ -1,0 +1,42 @@
+//
+//  GAToast.swift
+//  GAFramework
+//
+//  Created by houjianan on 2019/8/29.
+//  Copyright © 2019 houjianan. All rights reserved.
+//  GAToast
+
+import UIKit
+
+public enum GAToastType: Int {
+    // 0 小菊花， 1 提交成功， 2 提交失败， 3 操作成功， 4 操作失败， 5 t文案提醒
+    case loading = 0, submit_success = 1, submit_failure = 2, operate_success = 3, operate_error = 4, message = 5
+}
+
+open class GAToast: UIView {
+    
+    // .submit_success .submit_failure .operate_success .operate_error
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var alertLabel: UILabel!
+    // .message
+    @IBOutlet weak var messageLabel: UILabel!
+    
+    var type: GAToastType! {
+        didSet {
+            
+        }
+    }
+    
+    static func loadToastView(type: GAToastType) -> GAToast {
+        let bundle = Bundle(for: self.classForCoder())
+        let bundleURL = bundle.url(forResource: "GAToast", withExtension: "bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+        let views = resourceBundle?.loadNibNamed("GAToast", owner: nil, options: nil) as! [UIView]
+        return views[type.rawValue] as! GAToast
+    }
+    
+    override open func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+}
