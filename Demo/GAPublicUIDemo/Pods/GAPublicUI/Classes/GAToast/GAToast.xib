@@ -100,7 +100,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1aE-NX-2es">
                     <rect key="frame" x="38.5" y="66" width="122" height="50"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toast_icon_error.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7m-fT-5Ji">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GAPublicUI.bundle/toast_icon_error.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7m-fT-5Ji">
                             <rect key="frame" x="15" y="15" width="20" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="20" id="4X2-CK-HVS"/>
@@ -284,6 +284,7 @@
         </view>
     </objects>
     <resources>
+        <image name="GAPublicUI.bundle/toast_icon_error.png" width="16" height="16"/>
         <image name="toast_icon_error.png" width="24" height="24"/>
         <image name="toast_icon_failure.png" width="24" height="24"/>
         <image name="toast_icon_right.png" width="24" height="24"/>
