@@ -27,7 +27,7 @@ class ViewController: UIViewController, GAShowWindowProtocol {
         
 //        GAShowWindow.ga_show(message: "message")
 //        GAShowWindow.ga_hideAll()
-        self.view.ga_toastSubmit_error(delay: 0, touchEnable: false)
+        self.view.ga_toastSubmit_error(delay: 10, touchEnable: false)
     }
     
     

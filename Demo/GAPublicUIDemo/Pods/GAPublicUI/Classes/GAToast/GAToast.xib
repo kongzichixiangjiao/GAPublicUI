@@ -42,10 +42,6 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <connections>
-                <outlet property="iconImageView" destination="zGZ-AC-EAI" id="zrH-U1-dpC"/>
-                <outlet property="messageLabel" destination="b2S-fX-3wv" id="wrw-vb-3cP"/>
-            </connections>
             <point key="canvasLocation" x="-293.47826086956525" y="-34.821428571428569"/>
         </view>
         <view contentMode="scaleToFill" id="jVf-ME-cCO" userLabel="submit_success" customClass="GAToast" customModule="GAPublicUIDemo" customModuleProvider="target">
