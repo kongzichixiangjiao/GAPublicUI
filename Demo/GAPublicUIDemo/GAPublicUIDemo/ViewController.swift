@@ -27,28 +27,20 @@ class ViewController: UIViewController, GAShowWindowProtocol {
         
 //        GAShowWindow.ga_show(message: "message")
 //        GAShowWindow.ga_hideAll()
-//        self.view.ga_toastSubmit_error(delay: 0, touchEnable: false)
-        
-
-        
-        
-        
-        guard let bPath = Bundle.main.path(forResource:"Settings", ofType:"bundle") else { return }
-        let b = Bundle.init(path: bPath)
-        
-        let v = b?.url
-//        v.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
-//        self.view.addSubview(v)
-        
-
-        guard let imgPath = b?.path(forResource: "WechatIMG9760", ofType: "jpeg") else { return }
-        let img = UIImage.init(named: imgPath)
-        let imgView = UIImageView(image: img)
-        imgView.backgroundColor = UIColor.lightText
-        imgView.frame = CGRect(x: 100, y: 200, width: 100, height: 100)
-        self.view.addSubview(imgView)
+        self.view.ga_toastSubmit_error(delay: 0, touchEnable: false)
     }
     
     
 }
 
+/*
+ *  PXAlertOnlyBottomViewController是pod添加的GAAlertPresentation中的xib资源文件
+ *  eg:
+ *      let bundle = Bundle.ga_podBundle(aClass: PXAlertOnlyBottomViewController.classForCoder(), resource: "GAAlertPresentation")
+ */
+//static func ga_podBundle(aClass: Swift.AnyClass, resource: String) -> Bundle? {
+//    let podBundle = Bundle(for: aClass)
+//    let bundleURL = podBundle.url(forResource: resource, withExtension: "bundle")
+//    let bundle = Bundle(url: bundleURL!)
+//    return bundle
+//}
