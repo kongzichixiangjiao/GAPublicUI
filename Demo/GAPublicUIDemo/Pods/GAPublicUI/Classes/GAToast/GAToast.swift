@@ -31,7 +31,9 @@ open class GAToast: UIView {
         let bundle = Bundle(for: self.classForCoder())
         let bundleURL = bundle.url(forResource: "GAPublicUI", withExtension: "bundle")
         let resourceBundle = Bundle(url: bundleURL!)
-        let views = resourceBundle?.loadNibNamed("GAToast", owner: nil, options: nil) as! [UIView]
+        
+        let views = bundle.loadNibNamed("GAToast", owner: self, options: nil) as! [UIView]
+//        let views = Bundle.main.loadNibNamed("GAToast", owner: nil, options: nil) as! [UIView]
         return views[type.rawValue] as! GAToast
     }
     
