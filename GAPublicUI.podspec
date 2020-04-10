@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kongzichixiangjiao/GAPublicUI.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   s.source_files = "Classes/**/*.{swift}" #可用
   # s.resource_bundles = {
-    # 'GAPublicUI' => ['Classes/**/*.{xib, png}']
+    # 'GAPublicUI' => ['Classes/**/*.{xib,png}']
     # 'GAPublicUI_XIB' => ['Classes/**/*.{xib}'],
     # 'GAPublicUI_IMG' => ['Classes/**/*.{png}']
   # }

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,21 @@
 		DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC2018E243D7CA8004435B8 /* Main.storyboard */; };
 		DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC20191243D7CA9004435B8 /* Assets.xcassets */; };
 		DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC20193243D7CA9004435B8 /* LaunchScreen.storyboard */; };
+		DCEA815C24403FFA003936AC /* View+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA814D24403FFA003936AC /* View+Toast.swift */; };
+		DCEA816124403FFA003936AC /* GAShowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815424403FFA003936AC /* GAShowWindow.swift */; };
+		DCEA816224403FFA003936AC /* GAShowWindowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815524403FFA003936AC /* GAShowWindowProtocol.swift */; };
+		DCEA816424403FFA003936AC /* GAFloatWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815824403FFA003936AC /* GAFloatWindowViewController.swift */; };
+		DCEA816524403FFA003936AC /* GAFloatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815924403FFA003936AC /* GAFloatWindow.swift */; };
+		DCEA816624403FFA003936AC /* float_icon_add_plan.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEA815A24403FFA003936AC /* float_icon_add_plan.png */; };
+		DCEA816724403FFA003936AC /* GAFloatWindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEA815B24403FFA003936AC /* GAFloatWindowViewController.xib */; };
+		DCEA817B24404CC6003936AC /* toast_icon_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEA817724404CBD003936AC /* toast_icon_error@2x.png */; platformFilter = ios; };
+		DCEA817C24404CC6003936AC /* toast_icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEA817824404CBD003936AC /* toast_icon_right@2x.png */; platformFilter = ios; };
+		DCEA817D24404CC6003936AC /* toast_icon_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEA817924404CBD003936AC /* toast_icon_failure@2x.png */; platformFilter = ios; };
+		DCEA8185244051BB003936AC /* GAToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815224403FFA003936AC /* GAToast.swift */; };
+		DCEA8186244051C6003936AC /* GAToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA815224403FFA003936AC /* GAToast.swift */; };
+		DCEA818724405405003936AC /* GAToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEA817E24404F43003936AC /* GAToast.xib */; };
+		DCEA819024407027003936AC /* GAToast.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEA817E24404F43003936AC /* GAToast.xib */; platformFilter = ios; };
+		DCEA81922440706F003936AC /* GAToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCEA81912440706F003936AC /* GAToast.bundle */; };
 		FB859983FCF14FF235233145 /* Pods_GAPublicUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84EAB1A64075EF403E64B1 /* Pods_GAPublicUIDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +41,21 @@
 		DCC20191243D7CA9004435B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC20194243D7CA9004435B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC20196243D7CA9004435B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA814D24403FFA003936AC /* View+Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Toast.swift"; sourceTree = "<group>"; };
+		DCEA815224403FFA003936AC /* GAToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAToast.swift; sourceTree = "<group>"; };
+		DCEA815424403FFA003936AC /* GAShowWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAShowWindow.swift; sourceTree = "<group>"; };
+		DCEA815524403FFA003936AC /* GAShowWindowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAShowWindowProtocol.swift; sourceTree = "<group>"; };
+		DCEA815824403FFA003936AC /* GAFloatWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAFloatWindowViewController.swift; sourceTree = "<group>"; };
+		DCEA815924403FFA003936AC /* GAFloatWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GAFloatWindow.swift; sourceTree = "<group>"; };
+		DCEA815A24403FFA003936AC /* float_icon_add_plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = float_icon_add_plan.png; sourceTree = "<group>"; };
+		DCEA815B24403FFA003936AC /* GAFloatWindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GAFloatWindowViewController.xib; sourceTree = "<group>"; };
+		DCEA816F24404C6C003936AC /* GAToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEA817124404C6C003936AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA817724404CBD003936AC /* toast_icon_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_error@2x.png"; sourceTree = "<group>"; };
+		DCEA817824404CBD003936AC /* toast_icon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_right@2x.png"; sourceTree = "<group>"; };
+		DCEA817924404CBD003936AC /* toast_icon_failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_icon_failure@2x.png"; sourceTree = "<group>"; };
+		DCEA817E24404F43003936AC /* GAToast.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GAToast.xib; sourceTree = "<group>"; };
+		DCEA81912440706F003936AC /* GAToast.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GAToast.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +64,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB859983FCF14FF235233145 /* Pods_GAPublicUIDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEA816C24404C6C003936AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC20187243D7CA8004435B8 /* GAPublicUIDemo */,
+				DCEA817024404C6C003936AC /* GAToast */,
 				DCC20186243D7CA8004435B8 /* Products */,
 				1EDDB6FAFFE8F42077DF3F56 /* Pods */,
 				086A2F53F112BC110842E494 /* Frameworks */,
@@ -71,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DCC20185243D7CA8004435B8 /* GAPublicUIDemo.app */,
+				DCEA816F24404C6C003936AC /* GAToast.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +117,10 @@
 		DCC20187243D7CA8004435B8 /* GAPublicUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCEA814A24403FFA003936AC /* Classes */,
 				DCC20188243D7CA8004435B8 /* AppDelegate.swift */,
+				DCEA817E24404F43003936AC /* GAToast.xib */,
+				DCEA817624404CBD003936AC /* source */,
 				DCC2018C243D7CA8004435B8 /* ViewController.swift */,
 				DCC2018E243D7CA8004435B8 /* Main.storyboard */,
 				DCC20191243D7CA9004435B8 /* Assets.xcassets */,
@@ -86,6 +128,73 @@
 				DCC20196243D7CA9004435B8 /* Info.plist */,
 			);
 			path = GAPublicUIDemo;
+			sourceTree = "<group>";
+		};
+		DCEA814A24403FFA003936AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA814B24403FFA003936AC /* GAToast */,
+				DCEA815724403FFA003936AC /* GAFloatButton */,
+			);
+			name = Classes;
+			path = ../../../Classes;
+			sourceTree = "<group>";
+		};
+		DCEA814B24403FFA003936AC /* GAToast */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA81912440706F003936AC /* GAToast.bundle */,
+				DCEA814C24403FFA003936AC /* toast1 */,
+				DCEA815224403FFA003936AC /* GAToast.swift */,
+				DCEA815324403FFA003936AC /* toast2 */,
+			);
+			path = GAToast;
+			sourceTree = "<group>";
+		};
+		DCEA814C24403FFA003936AC /* toast1 */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA814D24403FFA003936AC /* View+Toast.swift */,
+			);
+			path = toast1;
+			sourceTree = "<group>";
+		};
+		DCEA815324403FFA003936AC /* toast2 */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA815424403FFA003936AC /* GAShowWindow.swift */,
+				DCEA815524403FFA003936AC /* GAShowWindowProtocol.swift */,
+			);
+			path = toast2;
+			sourceTree = "<group>";
+		};
+		DCEA815724403FFA003936AC /* GAFloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA815824403FFA003936AC /* GAFloatWindowViewController.swift */,
+				DCEA815924403FFA003936AC /* GAFloatWindow.swift */,
+				DCEA815A24403FFA003936AC /* float_icon_add_plan.png */,
+				DCEA815B24403FFA003936AC /* GAFloatWindowViewController.xib */,
+			);
+			path = GAFloatButton;
+			sourceTree = "<group>";
+		};
+		DCEA817024404C6C003936AC /* GAToast */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA817124404C6C003936AC /* Info.plist */,
+			);
+			path = GAToast;
+			sourceTree = "<group>";
+		};
+		DCEA817624404CBD003936AC /* source */ = {
+			isa = PBXGroup;
+			children = (
+				DCEA817724404CBD003936AC /* toast_icon_error@2x.png */,
+				DCEA817824404CBD003936AC /* toast_icon_right@2x.png */,
+				DCEA817924404CBD003936AC /* toast_icon_failure@2x.png */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +208,6 @@
 				DCC20181243D7CA8004435B8 /* Sources */,
 				DCC20182243D7CA8004435B8 /* Frameworks */,
 				DCC20183243D7CA8004435B8 /* Resources */,
-				6020CD9277394B6FF1565F22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +217,23 @@
 			productName = GAPublicUIDemo;
 			productReference = DCC20185243D7CA8004435B8 /* GAPublicUIDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DCEA816E24404C6C003936AC /* GAToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEA817224404C6C003936AC /* Build configuration list for PBXNativeTarget "GAToast" */;
+			buildPhases = (
+				DCEA816B24404C6C003936AC /* Sources */,
+				DCEA816C24404C6C003936AC /* Frameworks */,
+				DCEA816D24404C6C003936AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAToast;
+			productName = GAToast;
+			productReference = DCEA816F24404C6C003936AC /* GAToast.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -121,6 +246,9 @@
 				ORGANIZATIONNAME = houjianan;
 				TargetAttributes = {
 					DCC20184243D7CA8004435B8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DCEA816E24404C6C003936AC = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -139,6 +267,7 @@
 			projectRoot = "";
 			targets = (
 				DCC20184243D7CA8004435B8 /* GAPublicUIDemo */,
+				DCEA816E24404C6C003936AC /* GAToast */,
 			);
 		};
 /* End PBXProject section */
@@ -148,32 +277,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEA816724403FFA003936AC /* GAFloatWindowViewController.xib in Resources */,
+				DCEA816624403FFA003936AC /* float_icon_add_plan.png in Resources */,
 				DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */,
 				DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */,
 				DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */,
+				DCEA818724405405003936AC /* GAToast.xib in Resources */,
+				DCEA81922440706F003936AC /* GAToast.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEA816D24404C6C003936AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEA819024407027003936AC /* GAToast.xib in Resources */,
+				DCEA817B24404CC6003936AC /* toast_icon_error@2x.png in Resources */,
+				DCEA817C24404CC6003936AC /* toast_icon_right@2x.png in Resources */,
+				DCEA817D24404CC6003936AC /* toast_icon_failure@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6020CD9277394B6FF1565F22 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F25622696B0466B51A631D19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,8 +330,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEA816124403FFA003936AC /* GAShowWindow.swift in Sources */,
+				DCEA815C24403FFA003936AC /* View+Toast.swift in Sources */,
+				DCEA816224403FFA003936AC /* GAShowWindowProtocol.swift in Sources */,
+				DCEA8186244051C6003936AC /* GAToast.swift in Sources */,
 				DCC2018D243D7CA8004435B8 /* ViewController.swift in Sources */,
+				DCEA816524403FFA003936AC /* GAFloatWindow.swift in Sources */,
 				DCC20189243D7CA8004435B8 /* AppDelegate.swift in Sources */,
+				DCEA816424403FFA003936AC /* GAFloatWindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEA816B24404C6C003936AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEA8185244051BB003936AC /* GAToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +523,44 @@
 			};
 			name = Release;
 		};
+		DCEA817324404C6C003936AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GAToast/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = houjianan.GAToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DCEA817424404C6C003936AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HGA4995V4J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GAToast/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = houjianan.GAToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +578,15 @@
 			buildConfigurations = (
 				DCC2019A243D7CA9004435B8 /* Debug */,
 				DCC2019B243D7CA9004435B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEA817224404C6C003936AC /* Build configuration list for PBXNativeTarget "GAToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEA817324404C6C003936AC /* Debug */,
+				DCEA817424404C6C003936AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

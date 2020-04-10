@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import GAPublicUI
-import GAExtension
+//import GAPublicUI
+//import GAExtension
 
 class ViewController: UIViewController, GAShowWindowProtocol {
     
@@ -28,6 +28,7 @@ class ViewController: UIViewController, GAShowWindowProtocol {
 //        GAShowWindow.ga_show(message: "message")
 //        GAShowWindow.ga_hideAll()
         self.view.ga_toastSubmit_error(delay: 10, touchEnable: false)
+        print(NSHomeDirectory())
     }
     
     
