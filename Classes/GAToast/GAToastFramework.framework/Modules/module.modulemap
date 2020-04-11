@@ -1,0 +1,11 @@
+framework module GAToastFramework {
+  umbrella header "GAToastFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module GAToastFramework.Swift {
+    header "GAToastFramework-Swift.h"
+    requires objc
+}
