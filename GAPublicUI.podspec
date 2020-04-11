@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # }
   # s.resources = ['Classes/**/*.{xib,png}']
 
-  s.vendored_frameworks = "Classes/GAToast/GAToastFramework.framework"
+  s.vendored_frameworks = "**/GAToastFramework.framework"
   s.requires_arc = true # 是否启用ARCS
   s.platform     = :ios, "9.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
