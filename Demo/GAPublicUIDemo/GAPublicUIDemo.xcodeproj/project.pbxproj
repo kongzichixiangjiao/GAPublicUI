@@ -12,6 +12,8 @@
 		DCC20190243D7CA8004435B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC2018E243D7CA8004435B8 /* Main.storyboard */; };
 		DCC20192243D7CA9004435B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC20191243D7CA9004435B8 /* Assets.xcassets */; };
 		DCC20195243D7CA9004435B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC20193243D7CA9004435B8 /* LaunchScreen.storyboard */; };
+		DCEA82382441F564003936AC /* GAToastFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA82362441F545003936AC /* GAToastFramework.framework */; };
+		DCEA82392441F564003936AC /* GAToastFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCEA82362441F545003936AC /* GAToastFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB859983FCF14FF235233145 /* Pods_GAPublicUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84EAB1A64075EF403E64B1 /* Pods_GAPublicUIDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DCEA82392441F564003936AC /* GAToastFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +42,7 @@
 		DCC20191243D7CA9004435B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC20194243D7CA9004435B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC20196243D7CA9004435B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA82362441F545003936AC /* GAToastFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GAToastFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB859983FCF14FF235233145 /* Pods_GAPublicUIDemo.framework in Frameworks */,
+				DCEA82382441F564003936AC /* GAToastFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 		DCC20187243D7CA8004435B8 /* GAPublicUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DCEA82362441F545003936AC /* GAToastFramework.framework */,
 				DCC20188243D7CA8004435B8 /* AppDelegate.swift */,
 				DCC2018C243D7CA8004435B8 /* ViewController.swift */,
 				DCC2018E243D7CA8004435B8 /* Main.storyboard */,
@@ -113,7 +119,6 @@
 				DCC20182243D7CA8004435B8 /* Frameworks */,
 				DCC20183243D7CA8004435B8 /* Resources */,
 				DCEA81C52441D76D003936AC /* Embed Frameworks */,
-				BA09D013877A5FF8CEC39B6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,23 +176,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BA09D013877A5FF8CEC39B6C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GAPublicUIDemo/Pods-GAPublicUIDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F25622696B0466B51A631D19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
