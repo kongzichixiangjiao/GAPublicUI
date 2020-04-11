@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     # 'GAPublicUI_IMG' => ['Classes/**/*.{png}']
   # }
   # s.resources = ['Classes/**/*.{xib,png}']
-
+  # 注意要加.ios.
   s.ios.vendored_frameworks = "Classes/**/*.framework"
   s.requires_arc = true # 是否启用ARCS
   s.platform     = :ios, "9.0" #平台及支持的最低版本

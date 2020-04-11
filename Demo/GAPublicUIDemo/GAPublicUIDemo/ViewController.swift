@@ -18,7 +18,7 @@ class ViewController: UIViewController, GAShowWindowProtocol {
         
         self.view.ga_toast(message: "12312")
         
-        
+        GAShowWindow.ga_show(message: "20", duration: 20)
     }
     
 }
